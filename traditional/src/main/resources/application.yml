@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+server:
+  port: 8081
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
+---
+logging:
+  level:
+    fabianopinto.threebunkers: debug
+---
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:54320/postgres
+#    username: Mwq4UxjWVtwXidri
+#    password: nU6YjjwdP6XsIKK4
